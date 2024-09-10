@@ -8,7 +8,7 @@ interface ButtonProps extends TouchableOpacityProps {
     textVariant?: 'primary' | 'secondary' | 'danger' | 'success' | 'default';
     IconLeft?: React.ComponentType;
     IconRight?: React.ComponentType;
-    style?: object;  // For additional styles passed dynamically
+    style?: object;  
 }
  
 const getBgVariantStyle = (variant: ButtonProps["bgVariant"]) => {
